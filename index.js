@@ -12,7 +12,8 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
-  return recipes[key] = value
+   recipes[key] = value
+   return recipes
 }
 
 
